@@ -12,11 +12,26 @@ console.log(`Average of array elements: ${sum / numArray.length}`);
 // array with 5 elements
 
 const studentInfo = [
-    "age",
-    "name",
-    "gender",
-    "occupation",
-    "address",
+    {
+        name: "Mariami",
+        age: 26,
+    },
+    {
+        name: "Ani",
+        age: 30,
+    },
+    {
+        name: "Nino",
+        age: 32,
+    },
+    {
+        name: "Levani",
+        age: 17,
+    },
+    {
+        name: "Giorgi",
+        age: 55,
+    },
 ];
 console.log(studentInfo);
 
